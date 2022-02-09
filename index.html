@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+CEP 2022
+-->
+<html>
+    <head>
+        <title>Show the State</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="solidLiquidGas.js"></script>
+        <script src="questionsAndAnswers2.js"></script>
+        <link rel='stylesheet' type="text/css" href="fiona_css_1.css">
+        <link rel='stylesheet' type="text/css" href="solidLiquidGas.css">
+    </head>
+    <body>
+        <div>
+            <header><h1>Show the State</h1></header>
+            <div id="layoutLeft100">
+                <h3>Temperature in question</h3>
+                <textarea id="questionTemperatureTextArea"></textarea>
+            </div>
+            <div id="layoutLeft100">
+                <div id="meltingPoint">
+                    Melting point<br>
+                    <textarea id="meltingPointTextArea"></textarea>
+                </div>
+                <div id="boilingPoint">
+                    Boiling point<br>
+                    <textarea id="boilingPointTextArea"></textarea>
+                    
+                    
+                </div>
+            </div>
+                <div id="layoutLeft100">
+                    <div id="solid">
+                        <div id = "solidReport" >Solid</div>
+                    </div>
+                    <div id="liquid">
+                        <div id = "liquidReport">Liquid</div>
+                    </div>
+                    <div id="gas">
+                        <div id="gasReport"> Gas</div>
+                    </div>
+                    
+                </div>
+            <div id="layoutLeft100">
+                <button onclick="whatStateIsIt()">What State is It?</button>
+            </div>
+            <div id="layoutLeft100">
+                <p>Enter the temperature that you want to know the physical state. Enter 
+                the melting point and the boiling point. Press the 'What State is It' button.
+                The state will become bold type, with a tick </p>
+                <p>
+                    The layout of this page is meant to encourage students to think about a temperature
+                    line and afterwards be able to answer state of matter questions without any visual aid
+                    or by drawing a little diagram for themselves
+                </p>
+            </div>
+            </div>
+        
+    </body>
+</html>
+
